@@ -1,0 +1,99 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.avatar {
+    width: 150px;
+    border-radius:100%;
+}
+
+.card {
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;;
+    background-color: #1f363d;
+    color: #e9ecef;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 0px 15px 18px -5px rgba(0,0,0,0.2);
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+.card p {
+    font-weight: 200;
+}
+
+.card h2 span {
+    font-weight: 200;
+}
+
+.card-container {
+    display:flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: red;
+    height:47.5px;
+    width:12px;
+}
+
+.green {
+    background-color: #6ab168;
+    border-top-right-radius: 4px;
+}
+
+.yellow {
+    background-color: #ecc233;
+}
+
+.blue {
+    background-color: #609ce1;
+}
+
+.purple {
+    background-color: #8e62b6;
+    border-bottom-right-radius: 4px;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
